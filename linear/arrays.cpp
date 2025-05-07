@@ -39,7 +39,7 @@ public:
     }
 
     ~array(){
-        delete arr;
+        delete[] arr;
     }
 };
 
